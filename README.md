@@ -2,7 +2,12 @@
 css-face-string
 ===============
 
-Generate a css string with font-face declaration from JS data:
+Generate a css string with font-face declaration from JS data.
+
+Useful for generating font faces programatically. Works in node.js and the
+browser.
+
+Useful with browserify and [insert-css](https://www.npmjs.org/package/insert-css)
 
 Use
 ---
