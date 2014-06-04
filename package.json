@@ -1,0 +1,28 @@
+{
+  "name": "css-face-string",
+  "version": "0.0.0",
+  "description": "Generates a string with font face css",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joakin/css-face-string"
+  },
+  "keywords": [
+    "font",
+    "font-face",
+    "css",
+    "string"
+  ],
+  "author": "Joaquin Oltra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joakin/css-face-string/issues"
+  },
+  "homepage": "https://github.com/joakin/css-face-string",
+  "devDependencies": {
+    "tape": "^2.13.2"
+  }
+}
