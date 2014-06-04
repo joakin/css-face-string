@@ -19,7 +19,7 @@ test('cfs.file', function (t) {
   var okCss = '@font-face {font-family: "Inconsolata";src: url("./inconsolata.ttf") format("truetype"), url("./inconsolata.woff") format("woff");'
   var css = cfs.file({
     name: 'Inconsolata',
-    file: [{ url: './inconsolata.ttf', format: 'truetype' }
+    files: [{ url: './inconsolata.ttf', format: 'truetype' }
           ,{ url: './inconsolata.woff', format: 'woff' }]
   })
   t.equal(css, okCss)

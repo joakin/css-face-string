@@ -17,7 +17,7 @@ var cfs = require('css-face-string')
 
 cfs.file({
   name: 'Inconsolata',
-  file: [{ url: './inconsolata.ttf', format: 'truetype' }
+  files: [{ url: './inconsolata.ttf', format: 'truetype' }
         ,{ url: './inconsolata.woff', format: 'woff' }]
 })
 //> @font-face {font-family: "Inconsolata";src: url("./inconsolata.ttf") format("truetype"), url("./inconsolata.woff") format("woff");
@@ -28,7 +28,7 @@ cfs.url("http://fonts.googleapis.com/css?family=Averia+Sans+Libre:400,300italic,
 // No sugar:
 cfs(cfs.types.FILE, {
   name: 'Inconsolata',
-  file: { url: './inconsolata.ttf', format: 'truetype' }
+  files: [{ url: './inconsolata.ttf', format: 'truetype' }]
 })
 
 cfs(cfs.types.URL,

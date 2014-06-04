@@ -18,7 +18,7 @@ cfs.file = function (font) {
   var face = '@font-face {' +
     'font-family: "'+ font.name +'";' +
     'src: ';
-  var urls = font.file.map(fileToSrc).join(', ') + ';'
+  var urls = font.files.map(fileToSrc).join(', ') + ';'
   return face + urls;
 }
 
